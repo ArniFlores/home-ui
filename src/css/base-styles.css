@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #013c94;
+  --text-primary-color: rgb(255, 255, 255);
+  --text-primary-color-opacity: rgba(255, 255, 255, 0.603);
+  --text-secundary-color: rgb(185, 185, 185);
+  --accent-color: #64ffda;
+  --accent-color-opacity: #64ffdb41;
+  --divider: #a7a7a7;
+}
+
+html, body {
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  scroll-behavior: smooth;
+  color: var(--text-primary-color);
+}
+
+div, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+div, header{
+  box-sizing: border-box;
+}
+
+
+.btn {
+  border: none;
+  border-radius: 5px;
+}

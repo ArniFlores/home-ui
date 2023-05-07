@@ -1,4 +1,9 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
 .navbar-container {
+    background: #0e1528;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto; 
@@ -6,12 +11,13 @@
     box-sizing: border-box;
     overflow: hidden; 
     line-height: 50px; 
-    font-family: Arial, sans-serif;
 }
 .navbar-container .navbar-logo {
     float: left;
     height: 40px;
     margin-right: 20px;
+    color: #fff;
+    font-family: Raleway, sans-serif;
 }
 .item-navbar {
     list-style: none;
@@ -19,14 +25,19 @@
     padding: 0;
     float: right;
 }
+.item-navbar span {
+    color: #facc15;
+}
 .item-navbar li {
     display: inline-block;
     margin: 0 10px;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 .item-navbar li a {
     display: block;
-    color: #353535;
+    font-family: Raleway, sans-serif;
+    color: #fff;
     text-decoration: none; 
-    padding: 10px
+    padding: 10px;
+    cursor: pointer;
 }

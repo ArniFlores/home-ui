@@ -13,16 +13,25 @@
   padding: 0 1rem;
 }
 
+.background-navbar {
+  background-color: rgb(24, 30, 48, 0.8);
+  /* filter: blur(1px); */
+  position: fixed;
+  /*border: solid 1px green;*/
+  height: 50px;
+  right: 0;
+  left: 0;
+}
+
 .navbar {
   display: flex;
   height: 50px;
   position: fixed;
-  border: solid 1px orange;
+  /*border: solid 1px orange;*/
   right: 0;
   left: 0;
   justify-content: center;
   z-index: 3;
-  filter: blur(1px);
 }
 
 .navbar-content {
